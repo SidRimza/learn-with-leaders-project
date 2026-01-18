@@ -40,6 +40,12 @@ I also use Cursor AI as an AI-powered editor to assist with inline suggestions a
 4. User can apply to a program
 5. Applied state is fetched from DB and reflected in UI
 
+## Trade-offs
+
+- UI styling was kept minimal to focus on correctness and data flow
+- Backend security is enforced using RLS instead of frontend-only checks
+- The application workflow is intentionally simple to match assignment scope
+
 ## Security
 - Row Level Security enabled
 - Users can only apply as themselves
